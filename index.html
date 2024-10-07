@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">SKINTIFIC</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#features" class="hover:text-blue-500">Features</a></li>
+                    <li><a href="#testimonials" class="hover:text-blue-500">Testimonials</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-400 text-white">
+        <div class="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center md:space-x-8">
+            <!-- Teks pada bagian kiri -->
+            <div class="md:w-1/2">
+                <h1 class="text-4xl font-bold mb-4">New Product SKINTIFIC Matte Cushion!</h1>
+                <p class="mb-6">Perfect Stay Velvet Matte Cushion. Cushion dengan finish velvet matte, matte yang halus dan menjadikan tampilan akhir flawless and looks like a healthy skin. Coverage tinggi yang dapat menutup noda hitam, mata panda, dan skin imperfections dalam 1 kali tap. 12 jam mengontrol minyak dan long lasting dengan teknologi Smart Oil Control.</p>
+                <a href="#features" class="bg-white text-blue-500 font-bold py-2 px-4 rounded hover:bg-gray-200 transition">Get Started</a>
+            </div>
+            <!-- Video pada bagian kanan -->
+            <div class="md:w-1/2 mt-6 md:mt-0">
+                <video width="75%" controls autoplay muted loop class="rounded-lg shadow-lg">
+                    <source src="image/skintificvid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/skintific1.jpg" walt="Feature 1" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">Oil Control</h3>
+                    <p class="text-gray-600">Mengontrol minyak di wajah hingga 12 jam dengan teknologi Smart Oil Control, menyerap minyak sehingga kulit bebas kilap namun tetap terhidrasi.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/beforeafter.jpg" alt="Feature 2" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">High Coverage</h3>
+                    <p class="text-gray-600">Coverage tinggi yang dapat menutup noda hitam, mata panda, dan skin imperfections dalam 1 kali tap.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/beforeafter.jpg" alt="Feature 3" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">Flawless</h3>
+                    <p class="text-gray-600">Finish velvet matte, matte yang halus dan menjadikan tampilan akhir flawless and looks like a healthy skin.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/shade1.jpg" alt="Feature 4" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">Shades</h3>
+                    <p class="text-gray-600">Tersedia 8 shades untuk semua tone kulit, sesuai dengan skin tone orang indonesia.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/skin.jpg" alt="Feature 5" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">Hero Ingredients</h3>
+                    <p class="text-gray-600">Niacinamide : Membantu mengontrol minyak berlebih di wajah. Copper Tripeptide : Membuat tampilan akhir lebih halus dan flawless. Astaxanthin : Sebagai natural UV blocking, membantu melindungi kulit dari penuaan dini yang disebabkan oleh efek buruk dari sinar matahari. Tocopherol : Antioksidan yang membantu mempertahankan tampilan cushion dari oksidasi.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="bg-gray-100 p-6 rounded-md shadow-lg text-center">
+                    <img src="image/skintific1.jpg" alt="Feature 6" class="mx-auto mb-4 w-48 h-48 object-cover">
+                    <h3 class="font-bold text-xl mb-2">Tekstur yang ringan</h3>
+                    <p class="text-gray-600">Tekstur yang ringan, nyaman diaplikasikan tanpa kilap berlebihan dan tidak membuat kulit kering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">What Our Users Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi1.jpeg" alt="Testimonial 1" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Ini cushionnya bagus bagett, coveragenya full, hasilnya beneran matte cocok untuk oily skin."</p>
+                    <h3 class="font-bold text-xl">- z*****a</h3>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi2.jpeg" alt="Testimonial 2" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Lebih flawless, keliatan lebih natural, gak berlebihan banget keliatannya, cocok buat daily make up, cinta banget sama cushion ini."</p>
+                    <h3 class="font-bold text-xl">- l*****a</h3>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi3.jpeg" alt="Testimonial 3" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Pas dipake cocok bgt dikulitku!!! aku sawo matang pake 03 petal, lama kelamaan nyatu sm warna kulitku."</p>
+                    <h3 class="font-bold text-xl">- jeje.ptrrr</h3>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi4.jpeg" alt="Testimonial 4" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Skintific biru ini matte finishing cocok buat kulit kombinasi menurutku, mudah diaplikasikan dan di blend love banget."</p>
+                    <h3 class="font-bold text-xl">- dreamywear.co</h3>
+                </div>
+                <!-- Testimonial 5 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi5.jpeg" alt="Testimonial 5" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Nyesel banget ga beli dri dulu, bagus banget ga expect bakal nyatu sm warna kulit ku, finish nya oke."</p>
+                    <h3 class="font-bold text-xl">- xyfz57</h3>
+                </div>
+                <!-- Testimonial 6 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi6.jpeg" alt="Testimonial 6" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"Worth to buy! Packaging nya lucu, mewah biru nya seger, full coverage, beneran waterproof dan transferproof."</p>
+                    <h3 class="font-bold text-xl">- g*****n</h3>
+                </div>
+                <!-- Testimonial 7 -->
+                <div class="bg-blue-500 p-6 rounded-md shadow-lg text-center text-white">
+                    <img src="image/testi7.jpeg" alt="Testimonial 7" class="mx-auto mb-4 w-48 h-48 object-cover rounded-md">
+                    <p class="mb-4">"New Product, ternyata hasilnya bagus banget cocok untuk kulit sensitif. Tekstur ringan dan sesuai untuk cool tone."</p>
+                    <h3 class="font-bold text-xl">- yuliatinur17</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-300 text-white py-6">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <p>&copy; 2024 SKINTIFIC. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="https://s.shopee.co.id/5AaGNorum6" class="hover:text-gray-400">Shopee</a>
+                    <a href="https://www.tiktok.com/@skintific_id?_t=8qJf4u7fia5&_r=1" class="hover:text-gray-400">Tiktok</a>
+                    <a href="https://www.instagram.com/skintificid?igsh=MThwdDVwczF0bDltNg==" class="hover:text-gray-400">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
